@@ -9,7 +9,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 @SpringBootApplication
 public class ResolutionsApplication {
-/*
+
 	@Bean
 	public UserDetailsService userDetailsService() {
 		return new InMemoryUserDetailsManager(
@@ -19,7 +19,7 @@ public class ResolutionsApplication {
 						.authorities("resolution:read")
 						.build());
 	}
-*/
+
 	public static void main(String[] args) {
 		SpringApplication.run(ResolutionsApplication.class, args);
 	}
